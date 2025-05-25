@@ -7,32 +7,32 @@
 notifications,setting the image from camera / photo library and aPDF viewer.
 
 - Functionality:
-    1. User Authentication
+    1. User Authentication:
         -> Google Sign-In using Firebase Authentication.
         -> Save user details in Core Data
 
-    2. (PDF Viewer) ->
+    2. (PDF Viewer):
         -> Show downloaded PDF document in PDF Viewer
         
-    3. Profile photo
+    3. Profile photo:
         -> Implement an option to capture an image using the camera.
         -> Allow users to pick an image from the gallery.
        
-    4. Mobile catalogue with offline mode using Core Data
+    4. Mobile catalogue with offline mode using Core Data:
         -> Fetch the list of data from the backend.
         -> Store the details retrieved from the API into a Core Data.
         -> Provide Update and Delete of Items for Stored Data
         -> Error Handling
         -> Validations
 
-    5. Local Notification
+    5. Local Notification:
         -> When Delete an Item (items getting from API), Send a local notification
         -> Notification contains Deleted Items details
         -> Allow users to Enable/Disable notifications
 
 - Developed the App using Xcode 16.2 and Swift 6.
 
-- FireBase & GoofSignIn third party libraries are used.
+- FireBase & GoogleSignIn third party libraries are used.
 
 - Main focus on implementing right architecture, design patterns and performance of the App.
 
@@ -48,7 +48,7 @@ notifications,setting the image from camera / photo library and aPDF viewer.
 
 - Used dependency injection across the App to facilitate the unit testing of the classes.
 
-- Implemented unit tests using XCTEst framework and Mock Objects.
+- Implemented unit tests using XCTest framework and Mock Objects.
 
 - Used NSURLSession for network operations.
 
