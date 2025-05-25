@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE27B1172DE2D15400B844FD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DE27B1162DE2D15400B844FD /* FirebaseAuth */; };
+		DE27B1192DE2D15900B844FD /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = DE27B1182DE2D15900B844FD /* GoogleSignIn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE27B0E62DE2CEE500B844FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE27B0C42DE2CEE200B844FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE27B0CB2DE2CEE200B844FD;
+			remoteInfo = Bookxpert;
+		};
+		DE27B0F02DE2CEE500B844FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE27B0C42DE2CEE200B844FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE27B0CB2DE2CEE200B844FD;
+			remoteInfo = Bookxpert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE27B0CC2DE2CEE200B844FD /* Bookxpert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookxpert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE27B0E52DE2CEE500B844FD /* BookxpertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookxpertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE27B0EF2DE2CEE500B844FD /* BookxpertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookxpertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DE27B0F72DE2CEE500B844FD /* Exceptions for "Bookxpert" folder in "Bookxpert" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DE27B0CB2DE2CEE200B844FD /* Bookxpert */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DE27B0CE2DE2CEE200B844FD /* Bookxpert */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DE27B0F72DE2CEE500B844FD /* Exceptions for "Bookxpert" folder in "Bookxpert" target */,
+			);
+			path = Bookxpert;
+			sourceTree = "<group>";
+		};
+		DE27B0E82DE2CEE500B844FD /* BookxpertTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BookxpertTests;
+			sourceTree = "<group>";
+		};
+		DE27B0F22DE2CEE500B844FD /* BookxpertUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BookxpertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE27B0C92DE2CEE200B844FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE27B1172DE2D15400B844FD /* FirebaseAuth in Frameworks */,
+				DE27B1192DE2D15900B844FD /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE27B0E22DE2CEE500B844FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE27B0EC2DE2CEE500B844FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE27B0C32DE2CEE200B844FD = {
+			isa = PBXGroup;
+			children = (
+				DE27B0CE2DE2CEE200B844FD /* Bookxpert */,
+				DE27B0E82DE2CEE500B844FD /* BookxpertTests */,
+				DE27B0F22DE2CEE500B844FD /* BookxpertUITests */,
+				DE27B1152DE2D15400B844FD /* Frameworks */,
+				DE27B0CD2DE2CEE200B844FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE27B0CD2DE2CEE200B844FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE27B0CC2DE2CEE200B844FD /* Bookxpert.app */,
+				DE27B0E52DE2CEE500B844FD /* BookxpertTests.xctest */,
+				DE27B0EF2DE2CEE500B844FD /* BookxpertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE27B1152DE2D15400B844FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE27B0CB2DE2CEE200B844FD /* Bookxpert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE27B0F82DE2CEE500B844FD /* Build configuration list for PBXNativeTarget "Bookxpert" */;
+			buildPhases = (
+				DE27B0C82DE2CEE200B844FD /* Sources */,
+				DE27B0C92DE2CEE200B844FD /* Frameworks */,
+				DE27B0CA2DE2CEE200B844FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DE27B0CE2DE2CEE200B844FD /* Bookxpert */,
+			);
+			name = Bookxpert;
+			packageProductDependencies = (
+				DE27B1162DE2D15400B844FD /* FirebaseAuth */,
+				DE27B1182DE2D15900B844FD /* GoogleSignIn */,
+			);
+			productName = Bookxpert;
+			productReference = DE27B0CC2DE2CEE200B844FD /* Bookxpert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE27B0E42DE2CEE500B844FD /* BookxpertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE27B0FD2DE2CEE500B844FD /* Build configuration list for PBXNativeTarget "BookxpertTests" */;
+			buildPhases = (
+				DE27B0E12DE2CEE500B844FD /* Sources */,
+				DE27B0E22DE2CEE500B844FD /* Frameworks */,
+				DE27B0E32DE2CEE500B844FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE27B0E72DE2CEE500B844FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DE27B0E82DE2CEE500B844FD /* BookxpertTests */,
+			);
+			name = BookxpertTests;
+			packageProductDependencies = (
+			);
+			productName = BookxpertTests;
+			productReference = DE27B0E52DE2CEE500B844FD /* BookxpertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE27B0EE2DE2CEE500B844FD /* BookxpertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE27B1002DE2CEE500B844FD /* Build configuration list for PBXNativeTarget "BookxpertUITests" */;
+			buildPhases = (
+				DE27B0EB2DE2CEE500B844FD /* Sources */,
+				DE27B0EC2DE2CEE500B844FD /* Frameworks */,
+				DE27B0ED2DE2CEE500B844FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE27B0F12DE2CEE500B844FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DE27B0F22DE2CEE500B844FD /* BookxpertUITests */,
+			);
+			name = BookxpertUITests;
+			packageProductDependencies = (
+			);
+			productName = BookxpertUITests;
+			productReference = DE27B0EF2DE2CEE500B844FD /* BookxpertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE27B0C42DE2CEE200B844FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DE27B0CB2DE2CEE200B844FD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DE27B0E42DE2CEE500B844FD = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+						TestTargetID = DE27B0CB2DE2CEE200B844FD;
+					};
+					DE27B0EE2DE2CEE500B844FD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DE27B0CB2DE2CEE200B844FD;
+					};
+				};
+			};
+			buildConfigurationList = DE27B0C72DE2CEE200B844FD /* Build configuration list for PBXProject "Bookxpert" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE27B0C32DE2CEE200B844FD;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DE27B1132DE2D11A00B844FD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				DE27B1142DE2D13A00B844FD /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DE27B0CD2DE2CEE200B844FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE27B0CB2DE2CEE200B844FD /* Bookxpert */,
+				DE27B0E42DE2CEE500B844FD /* BookxpertTests */,
+				DE27B0EE2DE2CEE500B844FD /* BookxpertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE27B0CA2DE2CEE200B844FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE27B0E32DE2CEE500B844FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE27B0ED2DE2CEE500B844FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE27B0C82DE2CEE200B844FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE27B0E12DE2CEE500B844FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE27B0EB2DE2CEE500B844FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE27B0E72DE2CEE500B844FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE27B0CB2DE2CEE200B844FD /* Bookxpert */;
+			targetProxy = DE27B0E62DE2CEE500B844FD /* PBXContainerItemProxy */;
+		};
+		DE27B0F12DE2CEE500B844FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE27B0CB2DE2CEE200B844FD /* Bookxpert */;
+			targetProxy = DE27B0F02DE2CEE500B844FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE27B0F92DE2CEE500B844FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ24C8864F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bookxpert/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access to capture photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires photo library access to capture photos.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.Bookxpert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE27B0FA2DE2CEE500B844FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ24C8864F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bookxpert/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access to capture photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires photo library access to capture photos.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.Bookxpert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE27B0FB2DE2CEE500B844FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE27B0FC2DE2CEE500B844FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE27B0FE2DE2CEE500B844FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ24C8864F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.BookxpertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bookxpert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bookxpert";
+			};
+			name = Debug;
+		};
+		DE27B0FF2DE2CEE500B844FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ24C8864F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.BookxpertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bookxpert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bookxpert";
+			};
+			name = Release;
+		};
+		DE27B1012DE2CEE500B844FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ24C8864F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.BookxpertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bookxpert;
+			};
+			name = Debug;
+		};
+		DE27B1022DE2CEE500B844FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ24C8864F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.BookxpertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bookxpert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE27B0C72DE2CEE200B844FD /* Build configuration list for PBXProject "Bookxpert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE27B0FB2DE2CEE500B844FD /* Debug */,
+				DE27B0FC2DE2CEE500B844FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE27B0F82DE2CEE500B844FD /* Build configuration list for PBXNativeTarget "Bookxpert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE27B0F92DE2CEE500B844FD /* Debug */,
+				DE27B0FA2DE2CEE500B844FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE27B0FD2DE2CEE500B844FD /* Build configuration list for PBXNativeTarget "BookxpertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE27B0FE2DE2CEE500B844FD /* Debug */,
+				DE27B0FF2DE2CEE500B844FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE27B1002DE2CEE500B844FD /* Build configuration list for PBXNativeTarget "BookxpertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE27B1012DE2CEE500B844FD /* Debug */,
+				DE27B1022DE2CEE500B844FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE27B1132DE2D11A00B844FD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 11.13.0;
+			};
+		};
+		DE27B1142DE2D13A00B844FD /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = exactVersion;
+				version = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE27B1162DE2D15400B844FD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE27B1132DE2D11A00B844FD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DE27B1182DE2D15900B844FD /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE27B1142DE2D13A00B844FD /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DE27B0C42DE2CEE200B844FD /* Project object */;
+}
