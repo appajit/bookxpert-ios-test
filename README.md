@@ -58,3 +58,4 @@ notifications,setting the image from camera / photo library and aPDF viewer.
 
 - Used Swift Concurrency for async operations.
 
+- Supports Dark Mode and Light Mode.
